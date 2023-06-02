@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Amazon1 {
+public class Amazon1Test {
 
 	public static void main(String[] args) {
 		ChromeOptions option=new ChromeOptions();
