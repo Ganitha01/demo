@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T15:38:44 IST" name="Default suite" finished-at="2023-06-02T15:38:53 IST" duration-ms="8656">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T15:38:44 IST" name="Default test" finished-at="2023-06-02T15:38:53 IST" duration-ms="8656">
+      <class name="practice3.FramePopup">
+        <test-method signature="framehandling()[pri:0, instance:practice3.FramePopup@53ce1329]" started-at="2023-06-02T15:38:44 IST" name="framehandling" finished-at="2023-06-02T15:38:53 IST" duration-ms="8579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framehandling -->
+      </class> <!-- practice3.FramePopup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
