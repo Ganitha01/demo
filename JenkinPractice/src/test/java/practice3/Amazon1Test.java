@@ -8,13 +8,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class Amazon1Test {
 
-	public static void main(String[] args) {
+	@Test
+	public void goTOAmazon()
+	{
+		WebDriver driver;
 		ChromeOptions option=new ChromeOptions();
 		option.addArguments("--remote-allow-origins=*");
-	WebDriver driver=new ChromeDriver(option);
+		String BROWSER=System.getProperty("browser");
+		if(BROWSER.equalsIgnoreCase("chrome"))
+		{
+			driver=new ChromeDriver(option);
+		}
+		else
+		{
+			driver=new FirefoxDriver();
+		}
 	driver.navigate().to("https://www.amazon.in/l/29657746031?pf_rd_r=S5T04TC13VSAMY0MB8W4&pf_rd_p=25fed911-cde5-499e-b46d-974cfe1eef60&pd_rd_r=13172aac-9c1f-40d2-b5d0-26472daadbbf&pd_rd_w=ieUJB&pd_rd_wg=MrwWW&ref_=pd_gw_unk");
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
