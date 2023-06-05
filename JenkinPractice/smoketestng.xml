@@ -6,7 +6,7 @@
       <class name="practice1.Myp1Test"/>
       <class name="practice1.Myp2Test"/>
       <class name="practice2.Ty2Test"/>
-      <class name="practice2.Ty1Test"/>
+      <class name="practice3.Amazon1Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
