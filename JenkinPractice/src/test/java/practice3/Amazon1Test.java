@@ -23,10 +23,12 @@ public class Amazon1Test {
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver(option);
+			System.out.println("chrome browser is opening");
 		}
 		else
 		{
 			driver=new FirefoxDriver();
+			System.out.println("firefox browser is opening");
 		}
 	driver.navigate().to("https://www.amazon.in/l/29657746031?pf_rd_r=S5T04TC13VSAMY0MB8W4&pf_rd_p=25fed911-cde5-499e-b46d-974cfe1eef60&pd_rd_r=13172aac-9c1f-40d2-b5d0-26472daadbbf&pd_rd_w=ieUJB&pd_rd_wg=MrwWW&ref_=pd_gw_unk");
 	driver.manage().window().maximize();
